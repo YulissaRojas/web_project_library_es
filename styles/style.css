@@ -361,6 +361,7 @@
 .footer__logo {
   width: 58px;
   height: 80px;
+  padding-right: 10px;
 }
 
 .footer__column-heading {
@@ -377,6 +378,7 @@
 
 .footer__list-item {
   display: flex;
+  flex-wrap: wrap;
   columns: 16px;
   padding-top: 16px;
 }
@@ -384,7 +386,6 @@
 .footer__column-link {
   display: flex;
   color: white;
-  column-gap: 10px;
   align-items: center;
   text-decoration: none;
 }
